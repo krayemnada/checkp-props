@@ -1,0 +1,15 @@
+.img{
+    
+    background-Color:"#e74c3c";
+     width:"70%";
+     height:"300px";
+     display:"flex";
+     justify-Content:"center";
+     align-items:"center";
+      margin:'0 80px 0 80px ';
+      border-top-left-radius:"10px" ;
+      border-top-right-radius: "10px";
+}
+.First{
+    background-color: rgb(68, 68, 55);
+}
