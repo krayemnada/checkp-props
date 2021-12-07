@@ -2,8 +2,29 @@
    display: flex;
 }
 .me-2{
-    box-sizing: 30px;
-    margin-left: 100px;
+    box-sizing: 70px;
+    margin-left: 20px;
     text-align: left;
     width: 200px;
+    border-radius: 20px;
+
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.firstbloc{
+    margin-left: 300px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.face{
+    color: blue;
+}
+.all{
+   position: fixed;
+   width: 100%;
 }

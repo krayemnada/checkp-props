@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import imageInSrc from "./img.jpg"
 import Header from './header/Header';
 import First from './first/First';
+import Second from './second/Second';
 
 function App() {
 
@@ -12,20 +13,23 @@ function App() {
     FullName :"Nada Kraiem",
     Bio : "Welcome Everyone",
     Profession :"Full Stack Developer",
-    src:{imageInSrc},
+    src:imageInSrc,
     alt :"profile_img",
+    
   }
   return (
     <div className="App" >
       <Header/>
       <First/>
-       <Profile FullName={Data.FullName} Bio={Data.Bio} Profession={Data.Profession}>
+     
+       <Profile FullName={Data.FullName} Bio={Data.Bio} Profession={Data.Profession} >
         
-        <img src={Data.src} alt={Data.alt} style={{borderRadius:"50%",width:90,height:90, roundedCircle }}/>
+        <img src={Data.src} alt={Data.alt} style={{borderRadius:"50%",width:300,height:300 }}/>
         
         </Profile>
-      
-      
+        <br/>
+      <br/>
+      <Second/>
     </div>
   );
 }
