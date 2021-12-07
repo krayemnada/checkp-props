@@ -1,6 +1,7 @@
 .bar{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     justify-content: center;
     color: black;
 
@@ -9,4 +10,40 @@
 .bar :hover {
     background-color: rgb(192, 191, 191);
 }
+.down {
+    margin-left: 70%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    box-shadow: wheat;
+    border-radius: 10px;
+    box-shadow:rgb(104, 104, 97);
+   
+}
+
+.me-2{
+   margin-top: 8px;
+}
+
+
+.bar1 {
+    display:flex;
+    flex-direction: row;
+    margin-left: 70%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    box-shadow: wheat;
+    border-radius: 10px;
+    box-shadow:rgb(104, 104, 97);
+
+} 
+
+
 
